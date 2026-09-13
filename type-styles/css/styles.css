@@ -1,0 +1,121 @@
+html {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 10%;
+  color: #333;
+}
+
+main {
+  max-width: 900px;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  margin: 0.2rem 0;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.4rem;
+}
+
+section p {
+  line-height: 1.5;
+}
+
+.label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+
+
+/* FONT WEIGHT */
+
+.weight-normal {
+  font-weight: 400;
+}
+
+.weight-bold {
+  font-weight: 700;
+}
+
+
+/* FONT STYLE */
+
+.style-normal {
+  font-style: normal;
+}
+
+.style-italic {
+  font-style: italic;
+}
+
+
+/* LETTER SPACING */
+
+.spacing-normal {
+  letter-spacing: normal;
+}
+
+.spacing-tight {
+  letter-spacing: -0.03em;
+}
+
+.spacing-wide {
+  letter-spacing: 0.1em;
+}
+
+
+/* TEXT TRANSFORM */
+
+.transform-none {
+  text-transform: none;
+}
+
+.transform-uppercase {
+  text-transform: uppercase;
+}
+
+.transform-lowercase {
+  text-transform: lowercase;
+}
+
+.transform-capitalize {
+  text-transform: capitalize;
+}
+
+
+/* TEXT DECORATION */
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.decoration-underline {
+  text-decoration: underline;
+}
+
+.decoration-overline {
+  text-decoration: overline;
+}
+
+.decoration-line-through {
+  text-decoration: line-through;
+}
