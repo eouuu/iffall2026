@@ -1,0 +1,162 @@
+/* page */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin: 60px auto;
+    max-width: 800px;
+}
+
+.button {
+    width: 280px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+}
+
+
+/* cartoon network */
+
+.cartoon-network {
+    background: white;
+    color: black;
+    border: 5px solid black;
+    box-shadow: 8px 8px black;
+}
+
+.cn-black, .cn-white {
+    padding: 8px 12px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cn-black {
+    background: black;
+    color: white;
+}
+
+.cn-name {
+    display: none;
+}
+
+.cartoon-network:hover {
+    transform: rotate(-3deg) scale(1.05);
+}
+
+
+/* exploding kittens */
+
+.exploding-kittens {
+    background: #e62920;
+    color: #fff3c4;
+    border: 5px solid #181818;
+    border-radius: 15px;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.explosion {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.exploding-kittens:hover {
+    transform: rotate(3deg) scale(1.08);
+}
+
+
+/* instagram */
+
+.instagram {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 25px;
+    background: linear-gradient(120deg, #833ab4, #e1306c, #f77737);
+}
+
+.instagram:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px #c13584;
+}
+
+
+/* botanical garden */
+
+.botanical-garden {
+    background: #f4f0df;
+    color: #234b32;
+    border: 2px solid #58785c;
+    border-radius: 50px;
+    font-family: Georgia, serif;
+    font-size: 19px;
+    text-align: center;
+}
+
+.botanical-garden:hover {
+    background: #789b62;
+    color: white;
+    transform: translateY(-5px);
+}
+
+
+/* moo */
+
+.moo {
+    color: #222222;
+}
+
+.moo-card {
+    position: absolute;
+    width: 230px;
+    height: 80px;
+    background: #71c5b5;
+    transform: rotate(5deg);
+}
+
+.moo-front {
+    position: absolute;
+    width: 230px;
+    height: 80px;
+    background: white;
+    border: 1px solid #cccccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.moo-front strong {
+    font-size: 30px;
+}
+
+.moo-front small {
+    font-size: 9px;
+}
+
+.moo:hover .moo-card {
+    transform: rotate(12deg);
+}
+
+.moo:hover .moo-front {
+    transform: rotate(-5deg);
+}
